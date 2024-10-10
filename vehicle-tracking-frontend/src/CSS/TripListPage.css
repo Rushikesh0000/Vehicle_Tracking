@@ -1,0 +1,30 @@
+/* TripListPage.css */
+
+.trip-list-container {
+    padding: 20px; /* Add padding for the container */
+}
+
+.header {
+    height: 70px; /* Ensuring header height is 70px */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items properly */
+    border-bottom: 1px solid #ccc; /* Optional: Add a bottom border to separate from the data */
+}
+
+.trip-table {
+    margin-top: 20px; /* Add margin-top to separate the table from the header */
+    width: 100%; /* Full width for better layout */
+    border-collapse: collapse; /* Optional: Collapse borders for a cleaner look */
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 10px; /* Add padding for table cells */
+    border: 1px solid #ddd; /* Optional: Add borders to table cells */
+    text-align: left; /* Left align text */
+}
+
+.trip-table th {
+    background-color: #f2f2f2; /* Optional: Add background color for headers */
+}

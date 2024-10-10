@@ -1,0 +1,50 @@
+/* Loginpage.css */
+
+body {
+  background-color: #f0f0f0; /* Change to your desired background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: white; /* Background for the login form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Width of the login form */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.input-field {
+  margin-bottom: 15px; /* Space between inputs */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #007bff; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.error-message {
+  color: red; /* Error message color */
+  margin-bottom: 15px;
+}
